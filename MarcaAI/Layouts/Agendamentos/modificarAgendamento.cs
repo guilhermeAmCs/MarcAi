@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace MarcaAI.Layouts.Agendamentos
 {
-    public partial class Consulta : Form
+    public partial class modificarAgendamento : Form
     {
-        public Consulta()
+        public modificarAgendamento()
         {
             InitializeComponent();
         }

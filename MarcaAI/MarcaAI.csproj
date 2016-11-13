@@ -50,11 +50,11 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Layouts\Agendamentos\Consulta.cs">
+    <Compile Include="Layouts\Agendamentos\buscarConsulta.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Layouts\Agendamentos\Consulta.Designer.cs">
-      <DependentUpon>Consulta.cs</DependentUpon>
+    <Compile Include="Layouts\Agendamentos\buscarConsulta.Designer.cs">
+      <DependentUpon>buscarConsulta.cs</DependentUpon>
     </Compile>
     <Compile Include="Layouts\Agendamentos\MarcarAgendamento.cs">
       <SubType>Form</SubType>
@@ -62,11 +62,35 @@
     <Compile Include="Layouts\Agendamentos\MarcarAgendamento.Designer.cs">
       <DependentUpon>MarcarAgendamento.cs</DependentUpon>
     </Compile>
+    <Compile Include="Layouts\Agendamentos\modificarAgendamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Layouts\Agendamentos\modificarAgendamento.Designer.cs">
+      <DependentUpon>modificarAgendamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\Clientes\buscarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Layouts\Clientes\buscarCliente.Designer.cs">
+      <DependentUpon>buscarCliente.cs</DependentUpon>
+    </Compile>
     <Compile Include="Layouts\Clientes\Cadastrar.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Layouts\Clientes\Cadastrar.Designer.cs">
       <DependentUpon>Cadastrar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\Clientes\modificarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Layouts\Clientes\modificarCliente.Designer.cs">
+      <DependentUpon>modificarCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\Serviços\buscarServicos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Layouts\Serviços\buscarServicos.Designer.cs">
+      <DependentUpon>buscarServicos.cs</DependentUpon>
     </Compile>
     <Compile Include="Layouts\Serviços\CadastrarServiço.cs">
       <SubType>Form</SubType>
@@ -74,22 +98,43 @@
     <Compile Include="Layouts\Serviços\CadastrarServiço.Designer.cs">
       <DependentUpon>CadastrarServiço.cs</DependentUpon>
     </Compile>
+    <Compile Include="Layouts\Serviços\modificarServico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Layouts\Serviços\modificarServico.Designer.cs">
+      <DependentUpon>modificarServico.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Layouts\Agendamentos\Consulta.resx">
-      <DependentUpon>Consulta.cs</DependentUpon>
+    <EmbeddedResource Include="Layouts\Agendamentos\buscarConsulta.resx">
+      <DependentUpon>buscarConsulta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Layouts\Agendamentos\MarcarAgendamento.resx">
       <DependentUpon>MarcarAgendamento.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Layouts\Agendamentos\modificarAgendamento.resx">
+      <DependentUpon>modificarAgendamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Layouts\Clientes\buscarCliente.resx">
+      <DependentUpon>buscarCliente.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Layouts\Clientes\Cadastrar.resx">
       <DependentUpon>Cadastrar.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Layouts\Clientes\modificarCliente.resx">
+      <DependentUpon>modificarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Layouts\Serviços\buscarServicos.resx">
+      <DependentUpon>buscarServicos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Layouts\Serviços\CadastrarServiço.resx">
       <DependentUpon>CadastrarServiço.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Layouts\Serviços\modificarServico.resx">
+      <DependentUpon>modificarServico.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
