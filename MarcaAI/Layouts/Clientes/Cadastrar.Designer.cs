@@ -150,7 +150,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Cadastrar";
-            this.Text = "Cadastrar cliente";
+            this.Text = "paint";
             this.ResumeLayout(false);
             this.PerformLayout();
 
